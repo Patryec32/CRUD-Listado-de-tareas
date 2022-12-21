@@ -11,7 +11,7 @@ import {TareasService} from './services/tareas.service';
   declarations: [  SubtituloComponent,  ListadoTareasComponent, GridComponent],
   imports: [  CommonModule],
   exports: [GridComponent],
-  providers:[TareasService]
+  providers:[TareasService],
 
 })
 export class TareasModule { }
